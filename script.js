@@ -46,11 +46,16 @@ operators.forEach(operatorbutton=>{
 });
 
 result.addEventListener("click",function(){
+    if (secondNumber === undefined || operator === undefined) {
+        return; 
+    }
     firstNumber = parseFloat(firstNumber);
     secondNumber = parseFloat(secondNumber);
     total = operate(firstNumber,secondNumber,operator);
     display.textContent = total;
     firstNumber = total;
+    secondNumber = undefined;
+    operator = undefined;
 });
 clear.addEventListener("click",function(){
     display.textContent = "";
