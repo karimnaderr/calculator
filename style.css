@@ -21,6 +21,11 @@
     height: 145px;
     background-color: #ffb2ff;
     border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 32px;
+    font-weight: 500;
 }
 
 button {
