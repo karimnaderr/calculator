@@ -58,16 +58,20 @@ button {
     color: #ffb2ff;
 }
 
-.operations {
+.operators {
     color: #78007A;
 }
 
 .corner-left {
     border-top-left-radius: 20px;
+    color: #78007A;
+
 }
 
 .corner-right {
     border-top-right-radius: 20px;
+    color: #78007A;
+
 }
 
 .corner-bottom-left {
